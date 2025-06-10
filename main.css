@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+
+body {
+	background-color: #f2f9fe;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+ul {
+	display: flex;
+	padding: 15px 30px;
+	gap: 30px;
+}
+
+li {
+	list-style: none;
+	text-decoration: underline 2px;
+}
+
+.box1 {
+	display: flex;
+	padding: 0px 30px;
+	align-items: center;
+	gap: 10px;
+}
+
+.size {
+	width: 30%;
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	background-color: white;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#p {
+	display: flex;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	width: 55%;
+}
+
+.card2 {
+	display: flex;
+	justify-content: end;
+	padding: 40px 70px;
+	gap: 10.6%;
+	width: 80%;
+}
+
+.box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.color {
+    font-weight: 600;
+	color: #263fa9;
+}
+
+.prix {
+	font-size: 64px;
+}
+
+.month{
+    color: #4F6378;
+}
+
+table {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  border-collapse: collapse;
+}
+
+
+
+
+th,
+td {
+  padding: 8px 91px;
+}
+
+.card3{
+  	display: flex;
+	justify-content: end;
+	padding: 40px ;
+	gap: 12%;
+	width: 80%;
+    
+}
+
+.box3{
+    display: flex;
+	align-items: center;
+    gap: 157px;
+}
+
+button{
+    border: none;
+    background-color: #263FA9;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
